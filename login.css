@@ -1,0 +1,10 @@
+nav.historia {
+    text-align: left;
+    color: black;
+}
+h2.historia {
+    color: aqua;
+}
+p.historia {
+    text-justify: distribute;
+}
