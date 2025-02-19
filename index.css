@@ -9,13 +9,36 @@ header {
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 }
 
 header nav a {
-    margin: 0 15px;
+    margin-right: 20px;
     text-decoration: none;
     color: #333;
+}
+
+header nav div.botones {
+    display: flex;
+}
+
+header nav div.botones a {
+    margin-right: 20px;
+}
+
+header nav div.botones_inicio {
+    text-align: right;
+    display: flex;
+}
+
+header nav div.botones_inicio a {
+    margin-left: 20px;
 }
 
 .contenedor {
