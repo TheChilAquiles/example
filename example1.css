@@ -18,7 +18,7 @@ header nav a {
     color: #333;
 }
 
-.container {
+.contenedor {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -42,25 +42,25 @@ p {
     line-height: 1.5;
 }
 
-.group {
+.grupo {
     margin-bottom: 20px;
 }
 
-.group img {
-    width: 50px;
-    height: 50px;
+.grupo img {
+    width: 100px;
+    height: 100px;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-.group h3 {
+.grupo h3 {
     display: inline-block;
     font-size: 18px;
     color: #333;
 }
 
-.group p {
-    display: inline-block;
+.grupo p {
+    display: inline-flexbox;
     font-size: 14px;
     color: #666;
 }
