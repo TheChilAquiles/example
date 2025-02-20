@@ -41,14 +41,6 @@ header nav div.botones_inicio a {
     margin-left: 20px;
 }
 
-.contenedor {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 h1 {
     font-size: 24px;
     color: #333;
@@ -59,35 +51,6 @@ h2 {
     color: #555;
 }
 
-p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-}
-
-.grupo {
-    margin-bottom: 20px;
-}
-
-.grupo img {
-    width: 100px;
-    height: 100px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-.grupo h3 {
-    display: inline-block;
-    font-size: 18px;
-    color: #333;
-}
-
-.grupo p {
-    display: inline-flexbox;
-    font-size: 14px;
-    color: #666;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -96,4 +59,53 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+#ultimas-noticias {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contenedor-noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.noticia {
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; 
+}
+
+.noticia h3 {
+    margin-top: 15px;
+    color: #0056b3;
+}
+
+.noticia p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    margin-right: 10px;
 }

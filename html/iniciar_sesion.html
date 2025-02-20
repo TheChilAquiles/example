@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información</title>
     <link rel="stylesheet" href="/css/iniciar_sesion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <div class="botones">
-                <a href="index.html">Inicio</a>
+                <a href="/index.html">Inicio</a>
                 <a href="/html/galeria.html">Galería</a>
                 <a href="/html/informacion.html">Información</a>
                 <a href="/html/pqrs.html">PQRS</a>
                 <a href="/html/contacto.html">Contacto</a>
+                <a href="/html/historia.html">Historia</a>
             </div>
             <div class="botones_inicio">
                 <a href="/html/iniciar_sesion.html">iniciar sesion</a>
@@ -22,3 +24,41 @@
             </div>
         </nav>
     </header>
+    
+    <main>
+        <div class ="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesion para entrar en la pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿aun no tienes una cuenta?</h3>
+                    <p>registrate para entrar en la pagina</p>
+                    <button id="btn__registrarse">Registrarse</button>
+                </div>
+            
+            </div>
+            <div class="contenedor__login-register">
+                <form action="" class="formulario__login">
+                    <h2>Iniciar Sesion</h2>
+                    <input type="text" id="email" placeholder="Correo electronico">
+                    <input type="password" id="password" placeholder="contraseña">
+                    <button id="btnEntrar" type="button">Entrar</button>
+                </form>
+
+                <form action="" class="formulario__register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre completo">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Registrarse</button>
+                </form>
+        </div>
+        </div>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
